@@ -33,6 +33,12 @@ Cara Kerja :
 
 [![Screen-Shot-2019-09-22-at-16-33-42.png](https://i.postimg.cc/T2kY5K88/Screen-Shot-2019-09-22-at-16-33-42.png)](https://postimg.cc/MXQ8hKKt)
 
+* Fungsi Marshal akan digunakan untuk melakukan encode data objek ke bentuk json string.
+
+* Fungsi json.Marshal digunakan untuk decoding data ke json string. Sumber data bisa berupa variabel objek cetakan struct, map[string]interface{}, atau slice.
+
+* Pada contoh diatas, data slice struct dikonversi ke dalam bentuk json string. Hasil konversi berupa []byte, casting terlebih dahulu ke tipe string agar bisa ditampilkan bentuk json string-nya.
+
 #### HASIL RUNNING NOMOR 3 ####
 
 [![Screen-Shot-2019-09-22-at-16-32-21.png](https://i.postimg.cc/L5qd16fR/Screen-Shot-2019-09-22-at-16-32-21.png)](https://postimg.cc/p5t1Nvq1)
