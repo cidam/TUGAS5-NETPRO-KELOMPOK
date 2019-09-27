@@ -15,7 +15,7 @@
   <a>  Sella Tresnasari  (1301188565)  </a> 
 </p> 
 
-#### HASIL RUNNUNG NOMOR 1 ####
+#### HASIL RUNNING NOMOR 1 ####
 
 [![Screen-Shot-2019-09-22-at-16-33-24.png](https://i.postimg.cc/44FsNjts/Screen-Shot-2019-09-22-at-16-33-24.png)](https://postimg.cc/CdDWcPmQ)
 
