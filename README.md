@@ -19,13 +19,15 @@
 
 [![Screen-Shot-2019-09-22-at-16-33-24.png](https://i.postimg.cc/44FsNjts/Screen-Shot-2019-09-22-at-16-33-24.png)](https://postimg.cc/CdDWcPmQ)
 
-Di Go, data json dituliskan sebagai string. Dengan menggunakan json.Unmarshal, json string bisa dikonversi menjadi bentuk objek, entah itu dalam bentuk map[string]interface{} ataupun objek struct.
+Cara Kerja :
 
-Program diatas adalah contoh cara decoding json ke bentuk objek. Pertama import package yang dibutuhkan, lalu siapkan struct Person. Struct Person ini nantinya digunakan untuk membuat variabel baru penampung hasil decode json string. Proses decode sendiri dilakukan lewat fungsi json.Unmarshal(). 
+* Di Go, data json dituliskan sebagai string. Dengan menggunakan json.Unmarshal, json string bisa dikonversi menjadi bentuk objek, entah itu dalam bentuk map[string]interface{} ataupun objek struct.
 
-Fungsi unmarshal hanya menerima data json dalam bentuk []byte, maka dari itu data json string pada kode di atas di-casting terlebih dahulu ke tipe []byte sebelum dipergunakan pada fungsi unmarshal. Juga, perlu diperhatikan, argument ke-2 fungsi unmarshal harus diisi dengan pointer dari objek yang nantinya akan menampung hasilnya. Jika kita perhatikan lagi, pada struct Person, salah satu property-nya yaitu firstName memiliki tag json:"FirstName". Tag tersebut digunakan untuk mapping informasi json ke property yang bersangkutan.
+* Program diatas adalah contoh cara decoding json ke bentuk objek. Pertama import package yang dibutuhkan, lalu siapkan struct Person. Struct Person ini nantinya digunakan untuk membuat variabel baru penampung hasil decode json string. Proses decode sendiri dilakukan lewat fungsi json.Unmarshal(). 
 
-Data json yang akan diparsing memiliki 2 property yaitu FirstName dan LastName. Dengan menambahkan tag json, maka property FirstName & LastName struct akan secara cerdas menampung data json property FirstName & LastName.
+* Fungsi unmarshal hanya menerima data json dalam bentuk []byte, maka dari itu data json string pada kode di atas di-casting terlebih dahulu ke tipe []byte sebelum dipergunakan pada fungsi unmarshal. Juga, perlu diperhatikan, argument ke-2 fungsi unmarshal harus diisi dengan pointer dari objek yang nantinya akan menampung hasilnya. Jika kita perhatikan lagi, pada struct Person, salah satu property-nya yaitu firstName memiliki tag json:"FirstName". Tag tersebut digunakan untuk mapping informasi json ke property yang bersangkutan.
+
+* Data json yang akan diparsing memiliki 2 property yaitu FirstName dan LastName. Dengan menambahkan tag json, maka property FirstName & LastName struct akan secara cerdas menampung data json property FirstName & LastName.
 
 #### HASIL RUNNING NOMOR 2 ####
 
