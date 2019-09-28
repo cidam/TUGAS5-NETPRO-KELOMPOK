@@ -50,9 +50,9 @@ Cara Kerja :
 
 #### HASIL RUNNING NOMOR 3 ####
 
-[![Screen-Shot-2019-09-22-at-16-32-21.png](https://i.postimg.cc/L5qd16fR/Screen-Shot-2019-09-22-at-16-32-21.png)](https://postimg.cc/p5t1Nvq1)
-
 1. Output
+
+[![Screen-Shot-2019-09-22-at-16-32-21.png](https://i.postimg.cc/L5qd16fR/Screen-Shot-2019-09-22-at-16-32-21.png)](https://postimg.cc/p5t1Nvq1)
 
 2.	Cara Kerja & Diagram FSM
 
