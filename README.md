@@ -63,6 +63,9 @@ Cara Kerja :
 
 2.	Cara Kerja & Diagram FSM
 
+![fsm tugas 5](https://user-images.githubusercontent.com/54678313/66270922-d34de200-e882-11e9-843c-55502fed908b.jpg)
+
+
 3.	Analisis perbedaan dari protocol buffer dan flatbuffer
 -	Protocol Buffer
 Protocol Buffers adalah metode untuk serialisasi data terstruktur, yang dibuat oleh Google. Protobuf cocok digunakan pada aplikasi yang berkomunikasi dengan aplikasi lain. Protobuf bisa dipakai di banyak platform, contoh: komunikasi antara aplikasi mobile iOS dan Golang Web Service, bisa menggunakan protobuf.
