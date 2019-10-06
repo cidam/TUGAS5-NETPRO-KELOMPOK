@@ -20,10 +20,15 @@
 [![Screen-Shot-2019-09-22-at-16-33-24.png](https://i.postimg.cc/44FsNjts/Screen-Shot-2019-09-22-at-16-33-24.png)](https://postimg.cc/CdDWcPmQ)
 
 Fungsi Marshal() dapat mengambil apa pun, yang didalam GO berarti antarmuka kosong dan mengembalikan sepotong byte serta  kesalahan. Jika Marshal() gagal membuat serialisasi nilai input, akan mengembalikan kesalahan non-nil. Marshal() memiliki beberapa batasan ketat, yaitu:
+
 •	Kunci peta harus berupa string.
+
 •	Nilai peta harus jenis yang dapat diserialkan oleh paket json.
+
 •	Jenis berikut tidak didukung: Channel, kompleks, dan fungsi.
+
 •	Struktur data siklik yang tidak didukung.
+
 •	Pointer akan dikodekan (dan kemudian didekodekan) sebagai nilai-nilai yang mereka tunjuk (atau 'null' jika pointer nol).
 
 Cara Kerja :
